@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telefono Virtuale</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="phone">
+    <!-- Schermata Home -->
+    <div class="home-screen" id="homeScreen">
+      <div class="app-grid">
+        <div class="app-icon" id="spotifyIcon">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Spotify" />
+          <p>Spotify</p>
+        </div>
+
+```
+    <div class="app-icon" id="whatsappIcon">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+      <p>WhatsApp</p>
+    </div>
+
+    <div class="app-icon" id="instagramIcon">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" />
+      <p>Instagram</p>
+    </div>
+
+    <div class="app-icon" id="youtubeIcon">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube" />
+      <p>YouTube</p>
+    </div>
+
+    <div class="app-icon" id="telegramIcon">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram" />
+      <p>Telegram</p>
+    </div>
+  </div>
+</div>
+
+<!-- APP: Spotify -->
+<div class="app-screen" id="spotifyApp">
+  <div class="app-header" style="background-color:#1db954">
+    <h2>Spotify</h2>
+    <button class="home-btn" onclick="goHome()">🏠</button>
+  </div>
+  <div class="app-content">
+    <p>🎵 Riproduzione in corso...</p>
+    <p>🔥 Hit del momento</p>
+  </div>
+</div>
+
+<!-- APP: WhatsApp -->
+<div class="app-screen" id="whatsappApp">
+  <div class="app-header" style="background-color:#25D366">
+    <h2>WhatsApp</h2>
+    <button class="home-btn" onclick="goHome()">🏠</button>
+  </div>
+  <div class="app-content">
+    <p>📱 Mamma</p>
+    <p>📱 Papi</p>
+  </div>
+</div>
+
+<!-- APP: Instagram -->
+<div class="app-screen" id="instagramApp">
+  <div class="app-header" style="background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888)">
+    <h2>Instagram</h2>
+    <button class="home-btn" onclick="goHome()">🏠</button>
+  </div>
+  <div class="app-content">
+    <p>📸 Nuove foto</p>
+    <p>💬 Messaggi diretti</p>
+  </div>
+</div>
+
+<!-- APP: YouTube -->
+<div class="app-screen" id="youtubeApp">
+  <div class="app-header" style="background-color:#FF0000">
+    <h2>YouTube</h2>
+    <button class="home-btn" onclick="goHome()">🏠</button>
+  </div>
+  <div class="app-content">
+    <p>▶️ Video consigliati</p>
+    <p>📺 In evidenza</p>
+  </div>
+</div>
+
+<!-- APP: Telegram -->
+<div class="app-screen" id="telegramApp">
+  <div class="app-header" style="background-color:#0088cc">
+    <h2>Telegram</h2>
+    <button class="home-btn" onclick="goHome()">🏠</button>
+  </div>
+  <div class="app-content">
+    <p>💬 Chat private</p>
+    <p>📢 Canali seguiti</p>
+  </div>
+</div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
